@@ -16,7 +16,7 @@ padding:0px;
 }
 div#wrapper {
     width: 1000px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .h2_form {
@@ -39,7 +39,7 @@ div#wrapper {
 .style1 .text_form1 {
     width: 100%;
 	font-size: 12pt;
-    padding: 7px 0px 0px 6px;
+    padding: 7px 0 0 6px;
 	margin-bottom: 16px;
 	border: 2px solid #909090;
 }
@@ -113,7 +113,7 @@ form.style3 {
     width: 200px;
     display: block;
     margin: 15px auto;
-    padding: 7px 0px 7px 6px;
+    padding: 7px 0 7px 6px;
     font-size: 12pt;
 }
 .style3 .submit {
@@ -121,7 +121,7 @@ form.style3 {
     text-transform: uppercase;
     background: #CA0404;
     color: white;
-    border: 0px solid black;
-    padding: 11px 0px;
+    border: 0 solid black;
+    padding: 11px 0;
     cursor: pointer;
 }
