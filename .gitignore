@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+*.ai
+*.log
+*.sublime*
+node_modules/
+Thumbs.db
+build/
+form_action/
+/get_user.php
+/tr_menu.sql
