@@ -1,0 +1,116 @@
+/* Simple */
+
+
+@font-face {
+    font-family: 'Simple1';
+    src: url('../fonts/for_letters/simple/1/AGOpusHRBold.eot');
+    src: url('../fonts/for_letters/simple/1/AGOpusHRBold.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/simple/1/AGOpusHRBold.woff2') format('woff2'),
+         url('../fonts/for_letters/simple/1/AGOpusHRBold.woff') format('woff'),
+         url('../fonts/for_letters/simple/1/AGOpusHRBold.ttf') format('truetype'),
+         url('../fonts/for_letters/simple/1/AGOpusHRBold.svg#AGOpusHRBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Simple2';
+    src: url('../fonts/for_letters/simple/2/CoreSansM75ExtraBold.eot');
+    src: url('../fonts/for_letters/simple/2/CoreSansM75ExtraBold.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/simple/2/CoreSansM75ExtraBold.woff2') format('woff2'),
+         url('../fonts/for_letters/simple/2/CoreSansM75ExtraBold.woff') format('woff'),
+         url('../fonts/for_letters/simple/2/CoreSansM75ExtraBold.ttf') format('truetype'),
+         url('../fonts/for_letters/simple/2/CoreSansM75ExtraBold.svg#CoreSansM75ExtraBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Simple3';
+    src: url('../fonts/for_letters/simple/3/font.eot');
+    src: url('../fonts/for_letters/simple/3/font.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/simple/3/font.woff2') format('woff2'),
+         url('../fonts/for_letters/simple/3/font.woff') format('woff'),
+         url('../fonts/for_letters/simple/3/font.ttf') format('truetype'),
+         url('../fonts/for_letters/simple/3/font.svg#font') format('svg');
+}
+
+@font-face {
+    font-family: 'Simple4';
+    src: url('../fonts/for_letters/simple/4/impact.eot');
+    src: url('../fonts/for_letters/simple/4/impact.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/simple/4/impact.woff2') format('woff2'),
+         url('../fonts/for_letters/simple/4/impact.woff') format('woff'),
+         url('../fonts/for_letters/simple/4/impact.ttf') format('truetype'),
+         url('../fonts/for_letters/simple/4/impact.svg#impact') format('svg');
+}
+
+@font-face {
+    font-family: 'Simple5';
+    src: url('../fonts/for_letters/simple/5/MuseoSansCyrl700.eot');
+    src: url('../fonts/for_letters/simple/5/MuseoSansCyrl700.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/simple/5/MuseoSansCyrl700.woff2') format('woff2'),
+         url('../fonts/for_letters/simple/5/MuseoSansCyrl700.woff') format('woff'),
+         url('../fonts/for_letters/simple/5/MuseoSansCyrl700.ttf') format('truetype'),
+         url('../fonts/for_letters/simple/5/MuseoSansCyrl700.svg#MuseoSansCyrl700') format('svg');
+}
+
+
+@font-face {
+    font-family: 'Simple7';
+    src: url('../fonts/for_letters/simple/7/Pribambas.eot');
+    src: url('../fonts/for_letters/simple/7/Pribambas.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/simple/7/Pribambas.woff2') format('woff2'),
+         url('../fonts/for_letters/simple/7/Pribambas.woff') format('woff'),
+         url('../fonts/for_letters/simple/7/Pribambas.ttf') format('truetype'),
+         url('../fonts/for_letters/simple/7/Pribambas.svg#Pribambas') format('svg');
+}
+
+@font-face {
+    font-family: 'Simple8';
+    src: url('../fonts/for_letters/simple/8/RrNh3hOP.eot');
+    src: url('../fonts/for_letters/simple/8/RrNh3hOP.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/simple/8/RrNh3hOP.woff2') format('woff2'),
+         url('../fonts/for_letters/simple/8/RrNh3hOP.woff') format('woff'),
+         url('../fonts/for_letters/simple/8/RrNh3hOP.ttf') format('truetype'),
+         url('../fonts/for_letters/simple/8/RrNh3hOP.svg#RrNh3hOP') format('svg');
+}
+
+
+/* Serif */
+
+@font-face {
+    font-family: 'Serif1';
+    src: url('../fonts/for_letters/serif/1/AngryBirds_Regular.eot');
+    src: url('../fonts/for_letters/serif/1/AngryBirds_Regular.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/serif/1/AngryBirds_Regular.woff2') format('woff2'),
+         url('../fonts/for_letters/serif/1/AngryBirds_Regular.woff') format('woff'),
+         url('../fonts/for_letters/serif/1/AngryBirds_Regular.ttf') format('truetype'),
+         url('../fonts/for_letters/serif/1/AngryBirds_Regular.svg#AngryBirds_Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'Serif2';
+    src: url('../fonts/for_letters/serif/2/FORTE_VR.eot');
+    src: url('../fonts/for_letters/serif/2/FORTE_VR.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/serif/2/FORTE_VR.woff2') format('woff2'),
+         url('../fonts/for_letters/serif/2/FORTE_VR.woff') format('woff'),
+         url('../fonts/for_letters/serif/2/FORTE_VR.ttf') format('truetype'),
+         url('../fonts/for_letters/serif/2/FORTE_VR.svg#FORTE_VR') format('svg');
+}
+
+@font-face {
+    font-family: 'Serif3';
+    src: url('../fonts/for_letters/serif/3/Gecko_PersonalUseOnly.eot');
+    src: url('../fonts/for_letters/serif/3/Gecko_PersonalUseOnly.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/serif/3/Gecko_PersonalUseOnly.woff2') format('woff2'),
+         url('../fonts/for_letters/serif/3/Gecko_PersonalUseOnly.woff') format('woff'),
+         url('../fonts/for_letters/serif/3/Gecko_PersonalUseOnly.ttf') format('truetype'),
+         url('../fonts/for_letters/serif/3/Gecko_PersonalUseOnly.svg#Gecko_PersonalUseOnly') format('svg');
+}
+
+@font-face {
+    font-family: 'Serif4';
+    src: url('../fonts/for_letters/serif/4/YesevaOneRegular_v2.eot');
+    src: url('../fonts/for_letters/serif/4/YesevaOneRegular_v2.eot') format('embedded-opentype'),
+         url('../fonts/for_letters/serif/4/YesevaOneRegular_v2.woff2') format('woff2'),
+         url('../fonts/for_letters/serif/4/YesevaOneRegular_v2.woff') format('woff'),
+         url('../fonts/for_letters/serif/4/YesevaOneRegular_v2.ttf') format('truetype'),
+         url('../fonts/for_letters/serif/4/YesevaOneRegular_v2.svg#YesevaOneRegular_v2') format('svg');
+}

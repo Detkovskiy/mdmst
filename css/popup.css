@@ -1,0 +1,139 @@
+.popup-calc {
+    position: fixed;
+    padding: 13px;
+    margin-left: -35px;
+    bottom: 50%;
+    background: #f10000;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    display: none;
+    border-radius: 100px;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 2s infinite;
+    z-index: 100;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(241,0,0, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 40px rgba(241,0,0, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(241,0,0, 0);
+    }
+}
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(241,0,0, 0.4);
+        box-shadow: 0 0 0 0 rgba(241,0,0, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 40px rgba(241,0,0, 0);
+        box-shadow: 0 0 0 40px rgba(241,0,0, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(241,0,0, 0);
+        box-shadow: 0 0 0 0 rgba(241,0,0, 0);
+    }
+}
+
+.overlay_popup {
+    display:none;
+    position:fixed;
+    z-index: 999;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background:#000;
+    opacity:0.5;
+}
+
+.popup-block {
+    display: none;
+    position: relative;
+    z-index: 1000;
+    margin:0 25% 0 25%;
+    width:50%;
+}
+
+.showPopup {
+    position: fixed;
+    margin: 0 auto;
+    display: block;
+    top: 5%;
+    width: 1000px;
+    left: calc(50% - 500px);
+}
+
+.object{
+    width: 500px;
+    height: 900px;
+    background-color: #eee;
+    padding: 50px 70px;
+}
+.openButton {
+    display: block;
+}
+
+.iframe {
+    width: 100%;
+    height: 560px;
+}
+
+@media (min-width: 1280px) {
+    .popup-calc {
+        padding: 12px;
+        margin-left: -60px;
+        font-size: 14px;
+    }
+
+    .showPopup {
+        top: 5%;
+        width: 1000px;
+        left: calc(50% - 500px);
+    }
+
+    .iframe {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .popup-calc {
+        margin-left: -110px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .popup-calc {
+        margin-left: -120px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .showPopup {
+        top: 10%;
+        width: 1200px;
+        left: calc(50% - 600px);
+    }
+
+    .iframe {
+        height: 750px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .popup-calc {
+        margin-left: -140px;
+    }
+}
+
+.popup-btn {
+    margin: 0 0 10px 0;
+    font: 400 26px/30px 'Droid Serif', serif;
+    text-align: center;
+}
