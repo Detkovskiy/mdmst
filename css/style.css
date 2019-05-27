@@ -1242,7 +1242,9 @@ form.trackForm input, form.trackForm button { float: none; width: 100%; }
 .widget_pw_icon_box .icon-box:hover { box-shadow: 0 6px 9px rgba(0, 0, 0, 0.1); border-bottom: 3px solid #4ab9cf; text-decoration: none; }
 .widget_pw_icon_box .icon-box:hover .fa { color: #4ab9cf; }
 .widget_pw_icon_box .icon-box__title { margin-top: 0; margin-bottom: 8px; font-size: 16px; }
+.widget_pw_icon_box h4.icon-box__title {font-size: 20px; text-transform: uppercase;}
 .widget_pw_icon_box .icon-box__subtitle { color: #aaaaaa; font-size: 13px; }
+.widget_pw_icon_box span.icon-box__subtitle { color: #000000; font-size: 14px; }
 .widget_pw_icon_box .icon-box .fa { float: right; font-size: 45px; color: #e21f2f; padding: 10px 0 10px 10px; transition: all 100ms ease-out; }
 
 .header .widget-icon-box:first-of-type .icon-box { margin-left: 0; padding-left: 0; border-left: 0; }
@@ -1555,4 +1557,10 @@ form .response.error { color: red; }
   padding: 40px 0 0;
   background: url(../images/map.jpg) center no-repeat;
   background-size: cover;
+}
+
+.about-text {
+  font-size: 18px;
+  color: #555;
+  text-align: justify;
 }
