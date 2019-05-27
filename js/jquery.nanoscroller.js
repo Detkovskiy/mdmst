@@ -675,7 +675,7 @@
       options = this.options;
       paneClass = options.paneClass, sliderClass = options.sliderClass, contentClass = options.contentClass;
       if (!(pane = this.$el.children("." + paneClass)).length && !pane.children("." + sliderClass).length) {
-        this.$el.append("<div class=\"" + paneClass + "\"><div class=\"" + sliderClass + "\" /></div>");
+        this.$el.append("<div class=\"" + paneClass + "\"><div class=\"" + sliderClass + "\"/></div>");
       }
       this.pane = this.$el.children("." + paneClass);
       this.slider = this.pane.find("." + sliderClass);

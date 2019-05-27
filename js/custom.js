@@ -57,7 +57,7 @@ $(function(){
 	 * Menu height on large screens, break point
 	 */
 	(function () {
-		$( 'head' ).append( '<style type="text/css" id="main-nav-css"></style>' );
+		$( 'head' ).append( '<style id="main-nav-css"></style>' );
 
 		var $menu = $( '.js-main-nav' ),
 			$css = $( '#main-nav-css' );
