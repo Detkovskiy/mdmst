@@ -1576,3 +1576,8 @@ form .response.error { color: red; }
 .contact-phone li:last-child {
   margin-top: 30px; font-size: 18px; color: #333;
 }
+
+.gallery-img {
+  border: 1px solid #3c9bed; margin: 10px; box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
+  width: 23%;
+}
